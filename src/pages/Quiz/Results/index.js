@@ -9,8 +9,6 @@ const Results = ({ quizResults }) => {
 
   const [image, setImage] = useState('');
 
-  console.log(quizResults.drinkName.toLowerCase().replace('/', ''));
-
   import(
     `../../../assets/images/coktails/${quizResults.drinkName
       .toLowerCase()
